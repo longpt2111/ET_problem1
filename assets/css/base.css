@@ -5,7 +5,7 @@
   --text-color: #b1b1b1;
 
   --medium-text: 3rem;
-  --header-height: 12.8rem;
+  --header-height: 12.6rem;
 }
 
 html {
@@ -15,6 +15,7 @@ html {
   font-family: "NTR", sans-serif;
   -webkit-tap-highlight-color: transparent;
   scroll-behavior: smooth;
+  user-select: none;
 }
 
 * {
@@ -55,14 +56,14 @@ img {
 }
 
 .wrapper {
-  max-width: 1536px;
+  max-width: 1520px;
   margin: 0 auto;
 }
 
 .container {
-  max-width: calc(1248px + 1.5rem * 2);
+  max-width: calc(1236px + 3rem * 2);
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 3rem;
   height: 100%;
 }
 
@@ -72,4 +73,6 @@ img {
   letter-spacing: 0.3rem;
   background-color: var(--primary-color);
   font-size: 2rem;
+  color: var(--tertiary-color);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
