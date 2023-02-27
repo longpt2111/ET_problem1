@@ -1,0 +1,75 @@
+:root {
+  --primary-color: #64a19d;
+  --secondary-color: black;
+  --tertiary-color: white;
+  --text-color: #b1b1b1;
+
+  --medium-text: 3rem;
+  --header-height: 12.8rem;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 3.5rem;
+  box-sizing: border-box;
+  font-family: "NTR", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1536px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: calc(1248px + 1.5rem * 2);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  height: 100%;
+}
+
+.btn {
+  padding: 3.2rem 5.4rem;
+  border-radius: 0.5rem;
+  letter-spacing: 0.3rem;
+  background-color: var(--primary-color);
+  font-size: 2rem;
+}

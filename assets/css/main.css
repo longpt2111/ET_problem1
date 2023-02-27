@@ -1,0 +1,230 @@
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: var(--tertiary-color);
+  height: var(--header-height);
+}
+
+.header .header-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.header .header-logo a {
+  display: block;
+  font-size: 3.4rem;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.header .header-nav {
+  display: flex;
+  list-style-type: none;
+}
+
+.header .header-nav .header-nav__item {
+  font-size: var(--medium-text);
+  padding: 0 4.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.header .header-nav .header-nav__item a {
+  color: var(--secondary-color);
+}
+
+/* Hero */
+.hero {
+  width: 100%;
+  height: 130rem;
+  padding-top: var(--header-height);
+  position: relative;
+}
+
+.hero .hero-background {
+  position: absolute;
+  top: -4rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../img/bg-masthead.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: var(--secondary-color);
+  filter: brightness(50%);
+  z-index: -999;
+}
+
+.hero .hero-container {
+  position: absolute;
+  top: var(--header-height);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero .hero-heading {
+  font-size: 19rem;
+  line-height: 16rem;
+  letter-spacing: 1rem;
+  font-weight: 500;
+  background: -webkit-linear-gradient(var(--tertiary-color), transparent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 19rem;
+}
+
+.hero .hero-desc {
+  display: block;
+  max-width: 66rem;
+  font-size: 3.6rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 7rem;
+  color: var(--text-color);
+}
+
+.hero .hero-btn {
+  color: var(--tertiary-color);
+}
+
+/* About */
+.about {
+  background-color: var(--secondary-color);
+  height: 60rem;
+  background-image: linear-gradient(#000, #323232);
+}
+
+.about .about-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 77rem;
+  padding-top: 15.5rem;
+}
+
+.about .about-heading {
+  font-size: 5.8rem;
+  font-weight: 400;
+  margin-bottom: 5rem;
+  color: var(--tertiary-color);
+}
+
+.about .about-desc {
+  font-size: var(--medium-text);
+  text-align: center;
+  color: var(--text-color);
+}
+
+.about .about-desc a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+/* Projects */
+.projects .projects-container {
+  padding-top: 18rem;
+  padding-bottom: 23rem;
+}
+
+.projects .projects-item {
+  display: flex;
+}
+
+.projects .projects-img {
+  flex: 50%;
+}
+
+.projects .projects-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem;
+  text-align: center;
+  flex: 50%;
+  background-color: var(--secondary-color);
+  height: 55.8rem;
+}
+
+.projects .projects-content__heading {
+  font-size: 4.2rem;
+  font-weight: 400;
+  color: var(--tertiary-color);
+}
+
+.projects .projects-content__desc {
+  font-size: 3rem;
+  color: var(--text-color);
+  opacity: 0.5;
+  max-width: 38.5rem;
+}
+
+.projects-item:first-child {
+  margin-bottom: 2rem;
+}
+
+.projects-item:first-child .projects-img {
+  display: flex;
+  align-items: center;
+  flex: 60%;
+  padding-right: 1.5rem;
+  position: relative;
+}
+
+.projects-item:first-child .projects-img::after {
+  content: "";
+  position: absolute;
+  width: 1.5rem;
+  height: 54%;
+  background-color: var(--primary-color);
+  right: 0;
+}
+
+.projects-item:first-child .projects-content {
+  background-color: var(--tertiary-color);
+  flex: 40%;
+}
+
+.projects-item:first-child .projects-content__heading,
+.projects-item:first-child .projects-content__desc {
+  color: var(--secondary-color);
+  max-width: 43rem;
+}
+
+.projects-item:last-child {
+  flex-direction: row-reverse;
+}
+
+/* Contact */
+.contact {
+}
+
+.contact .contact-background {
+}
+
+.contact .contact-container {
+}
+
+.contact .contact-heading {
+}
+
+.contact .contact-field {
+}
+
+.contact .contact-field__input {
+}
+
+.contact .contact-field__button {
+}
