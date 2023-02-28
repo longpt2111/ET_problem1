@@ -6,6 +6,7 @@
 
   --large-text: 4.2rem;
   --medium-text: 3rem;
+  --small-text: 2rem;
   --header-height: 12.6rem;
 }
 
@@ -73,7 +74,7 @@ img {
   border-radius: 0.5rem;
   letter-spacing: 0.3rem;
   background-color: var(--primary-color);
-  font-size: 2rem;
+  font-size: var(--small-text);
   color: var(--tertiary-color);
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }

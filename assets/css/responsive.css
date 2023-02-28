@@ -188,3 +188,27 @@
     font-size: 1rem;
   }
 }
+
+@media (hover: hover) {
+  .header .header-nav .header-nav__item a:hover {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+  }
+
+  .header-menu:hover {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+  }
+}
+
+@media (hover: none) {
+  .header .header-nav .header-nav__item a:active {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+  }
+
+  .header-menu:active {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+  }
+}

@@ -46,11 +46,6 @@
   height: var(--header-height);
 }
 
-.header .header-nav .header-nav__item a:hover {
-  background-color: var(--secondary-color);
-  color: var(--tertiary-color);
-}
-
 .header-menu {
   display: none;
   border: 2px solid var(--primary-color);
@@ -58,11 +53,6 @@
   color: var(--primary-color);
   padding: 1rem 3rem;
   cursor: pointer;
-}
-
-.header-menu:hover {
-  background-color: var(--primary-color);
-  color: var(--tertiary-color);
 }
 
 .header-menu__content {
